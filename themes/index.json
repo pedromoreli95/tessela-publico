@@ -27,30 +27,5 @@
     "free_files": [],
     "created_at": "2026-09-02",
     "updated_at": "2026-09-02"
-  },
-  {
-    "id": "990727e2ccf2",
-    "name": "Calçadas",
-    "category": "Infraestrutura",
-    "price": "R$ 2",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/990727e2ccf2/miniatura.png",
-    "buy_url": "",
-    "free": false,
-    "free_files": [],
-    "category_count": 11,
-    "colors": [
-      "#ff0000",
-      "#00ff00",
-      "#898989",
-      "#ee70df",
-      "#b11818",
-      "#c1d431",
-      "#0500ff",
-      "#000000",
-      "#b3b3b3",
-      "#fefff4"
-    ],
-    "created_at": "2026-09-02",
-    "updated_at": "2026-09-02"
   }
 ]
