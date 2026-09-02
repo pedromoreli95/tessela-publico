@@ -337,5 +337,42 @@
     ],
     "created_at": "2026-09-02",
     "updated_at": "2026-09-02"
+  },
+  {
+    "id": "7f46be62d722",
+    "name": "Logradouros e Lotes",
+    "category": "Infraestrutura",
+    "price": "R$ 20",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/7f46be62d722/miniatura.png",
+    "buy_url": "",
+    "free": false,
+    "free_files": [],
+    "category_count": 2,
+    "colors": [
+      "#c7c7c7",
+      "#f0f0ef"
+    ],
+    "layers_info": [
+      {
+        "category_count": 1,
+        "colors": [
+          "#c7c7c7"
+        ],
+        "has_symbology": true,
+        "has_labels": true,
+        "name": "Logradouros"
+      },
+      {
+        "category_count": 1,
+        "colors": [
+          "#f0f0ef"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Lotes"
+      }
+    ],
+    "created_at": "2026-09-02",
+    "updated_at": "2026-09-02"
   }
 ]
