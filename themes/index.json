@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "802d0f4c9706",
+    "name": "Rodovia; Municipios; Hidrografia",
+    "category": "Rodovia; Municípios; Hidrografia",
+    "price": "R$ 15",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/802d0f4c9706/miniatura.png",
+    "buy_url": "",
+    "created_at": "2026-09-02",
+    "updated_at": "2026-09-02"
+  }
+]
