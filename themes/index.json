@@ -37,18 +37,6 @@
     "updated_at": "2026-09-02"
   },
   {
-    "id": "73f7072b800a",
-    "name": "Iluminação Pública",
-    "category": "",
-    "price": "R$ 39",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/73f7072b800a/miniatura.png",
-    "buy_url": "",
-    "free": false,
-    "free_files": [],
-    "created_at": "2026-09-02",
-    "updated_at": "2026-09-02"
-  },
-  {
     "id": "81d0b222ba50",
     "name": "Limite Municipal",
     "category": "",
