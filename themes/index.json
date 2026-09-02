@@ -73,18 +73,6 @@
     "updated_at": "2026-09-02"
   },
   {
-    "id": "1b2669bbbf53",
-    "name": "Perímetro Urbano (MAPA 2)",
-    "category": "",
-    "price": "R$ 39",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/1b2669bbbf53/miniatura.png",
-    "buy_url": "",
-    "free": false,
-    "free_files": [],
-    "created_at": "2026-09-02",
-    "updated_at": "2026-09-02"
-  },
-  {
     "id": "ec89618ed24a",
     "name": "Região Geográfica Imediata - RGI",
     "category": "",
