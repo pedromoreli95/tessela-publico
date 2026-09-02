@@ -35,5 +35,77 @@
     ],
     "created_at": "2026-09-02",
     "updated_at": "2026-09-02"
+  },
+  {
+    "id": "21dfc62dd00a",
+    "name": "Limite Municipal; Perimetro Urbano; Municípios; Hidrografia",
+    "category": "Infraestrutura",
+    "price": "R$ 50",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/21dfc62dd00a/miniatura.png",
+    "buy_url": "",
+    "free": false,
+    "free_files": [],
+    "category_count": 6,
+    "colors": [
+      "#0000ff",
+      "#ffffff",
+      "#729b6f"
+    ],
+    "layers_info": [
+      {
+        "category_count": 1,
+        "colors": [
+          "#0000ff"
+        ],
+        "has_symbology": true,
+        "has_labels": true,
+        "name": "Hidrografia"
+      },
+      {
+        "category_count": 1,
+        "colors": [
+          "#ffffff"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Limite_Municipal"
+      },
+      {
+        "category_count": 1,
+        "colors": [
+          "#ffffff"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Perímetro Urbano"
+      },
+      {
+        "category_count": 1,
+        "colors": [
+          "#729b6f"
+        ],
+        "has_symbology": true,
+        "has_labels": true,
+        "name": "BR_Municipios_2025"
+      },
+      {
+        "category_count": 1,
+        "colors": [
+          "#ffffff"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "BR_Municipios_2025_Sombreamento"
+      },
+      {
+        "category_count": 1,
+        "colors": [],
+        "has_symbology": false,
+        "has_labels": false,
+        "name": "BR_Municipios_2025_Destaque"
+      }
+    ],
+    "created_at": "2026-09-02",
+    "updated_at": "2026-09-02"
   }
 ]
