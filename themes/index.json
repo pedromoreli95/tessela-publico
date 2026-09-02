@@ -145,18 +145,6 @@
     "updated_at": "2026-09-02"
   },
   {
-    "id": "f2cbbbe87a74",
-    "name": "Região Geográfica Intermediária - RGINT (MAPA 2)",
-    "category": "",
-    "price": "R$ 39",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/f2cbbbe87a74/miniatura.png",
-    "buy_url": "",
-    "free": false,
-    "free_files": [],
-    "created_at": "2026-09-02",
-    "updated_at": "2026-09-02"
-  },
-  {
     "id": "85666d990611",
     "name": "Setores Censitários - MAPA 2",
     "category": "",
@@ -169,11 +157,11 @@
     "updated_at": "2026-09-02"
   },
   {
-    "id": "65aa3c7db094",
-    "name": "Sinalização Vertical",
+    "id": "59bd0719334b",
+    "name": "Áreas de Restrição Ambiental",
     "category": "",
     "price": "R$ 39",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/65aa3c7db094/miniatura.png",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/59bd0719334b/miniatura.png",
     "buy_url": "",
     "free": false,
     "free_files": [],
