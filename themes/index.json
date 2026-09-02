@@ -5,15 +5,5 @@
     "price": "R$ 5",
     "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/ac9ecd00e653/miniatura.png",
     "buy_url": ""
-  },
-  {
-    "id": "d766fbf5e700",
-    "name": "Massa D'água",
-    "category": "Hidrografia",
-    "price": "R$ 5",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/d766fbf5e700/miniatura.png",
-    "buy_url": "",
-    "created_at": "2026-09-02",
-    "updated_at": "2026-09-02"
   }
 ]
