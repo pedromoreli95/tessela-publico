@@ -133,6 +133,18 @@
     "updated_at": "2026-09-02"
   },
   {
+    "id": "e0553aa6709c",
+    "name": "Rampas de Acessibilidade",
+    "category": "",
+    "price": "R$ 39",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/e0553aa6709c/miniatura.png",
+    "buy_url": "",
+    "free": false,
+    "free_files": [],
+    "created_at": "2026-09-02",
+    "updated_at": "2026-09-02"
+  },
+  {
     "id": "ec89618ed24a",
     "name": "Região Geográfica Imediata - RGI",
     "category": "",
@@ -157,35 +169,11 @@
     "updated_at": "2026-09-02"
   },
   {
-    "id": "15946d1adc3c",
-    "name": "Região Geográfica Intermediária - RGINT",
-    "category": "",
-    "price": "R$ 39",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/15946d1adc3c/miniatura.png",
-    "buy_url": "",
-    "free": false,
-    "free_files": [],
-    "created_at": "2026-09-02",
-    "updated_at": "2026-09-02"
-  },
-  {
     "id": "f2cbbbe87a74",
     "name": "Região Geográfica Intermediária - RGINT (MAPA 2)",
     "category": "",
     "price": "R$ 39",
     "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/f2cbbbe87a74/miniatura.png",
-    "buy_url": "",
-    "free": false,
-    "free_files": [],
-    "created_at": "2026-09-02",
-    "updated_at": "2026-09-02"
-  },
-  {
-    "id": "2c32db4a6f96",
-    "name": "Setores Censitários",
-    "category": "",
-    "price": "R$ 39",
-    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/2c32db4a6f96/miniatura.png",
     "buy_url": "",
     "free": false,
     "free_files": [],
