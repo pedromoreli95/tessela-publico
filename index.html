@@ -35,6 +35,13 @@
     background:var(--paper-dim);font-size:14px;color:var(--ink);font-family:'Inter',sans-serif;}
   #search:focus{outline:none;border-color:var(--contour);background:#fff;}
 
+  .filters{display:flex;gap:8px;flex-wrap:wrap;padding:0 40px 8px;}
+  .chip{border:1px solid var(--line);background:var(--paper-dim);color:var(--ink-soft);
+    border-radius:14px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;
+    font-family:'Inter',sans-serif;transition:.15s;}
+  .chip:hover{border-color:var(--contour);}
+  .chip.active{background:var(--contour);color:#fff;border-color:var(--contour);}
+
   main{padding:32px 40px 60px;}
   #status{color:var(--ink-soft);font-size:13px;margin-bottom:18px;min-height:16px;}
 
@@ -117,6 +124,8 @@
   </div>
 </header>
 
+<div class="filters" id="filters"></div>
+
 <main>
   <div id="status">Carregando temas…</div>
   <div class="grid" id="grid"></div>
@@ -148,10 +157,38 @@
 <script>
 const OWNER = 'pedromoreli95';
 const REPO = 'tessela-publico';
+const CATEGORIES = ['Infraestrutura', 'Ambiental', 'Socioespacial', 'Socioeconômico'];
 const rawUrl = path => `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${path}`;
 
 let themes = [];
 let current = null;
+let activeCategory = null;
+
+function renderFilters(){
+  const wrap = document.getElementById('filters');
+  wrap.innerHTML = '';
+  ['Todos', ...CATEGORIES].forEach(label=>{
+    const chip = document.createElement('button');
+    chip.className = 'chip' + ((label==='Todos' && !activeCategory) || label===activeCategory ? ' active' : '');
+    chip.textContent = label;
+    chip.addEventListener('click', ()=>{
+      activeCategory = label === 'Todos' ? null : label;
+      renderFilters();
+      applyFilters();
+    });
+    wrap.appendChild(chip);
+  });
+}
+
+function applyFilters(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const filtered = themes.filter(t=>{
+    const matchesText = !q || (t.name||'').toLowerCase().includes(q) || (t.category||'').toLowerCase().includes(q);
+    const matchesCategory = !activeCategory || t.category === activeCategory;
+    return matchesText && matchesCategory;
+  });
+  renderGrid(filtered);
+}
 
 async function loadThemes(){
   const statusEl = document.getElementById('status');
@@ -164,6 +201,7 @@ async function loadThemes(){
     return;
   }
   statusEl.textContent = themes.length ? `${themes.length} tema(s) disponível(is).` : 'Nenhum tema publicado ainda.';
+  renderFilters();
   renderGrid(themes);
 }
 
@@ -190,13 +228,7 @@ function renderGrid(list){
   });
 }
 
-document.getElementById('search').addEventListener('input', e=>{
-  const q = e.target.value.trim().toLowerCase();
-  const filtered = !q ? themes : themes.filter(t=>
-    (t.name||'').toLowerCase().includes(q) || (t.category||'').toLowerCase().includes(q)
-  );
-  renderGrid(filtered);
-});
+document.getElementById('search').addEventListener('input', applyFilters);
 
 function formatDate(iso){
   if(!iso) return '';
