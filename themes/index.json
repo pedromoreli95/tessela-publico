@@ -107,5 +107,54 @@
     ],
     "created_at": "2026-09-02",
     "updated_at": "2026-09-02"
+  },
+  {
+    "id": "cbd7fa0af502",
+    "name": "Fitogeografia",
+    "category": "Ambiental",
+    "price": "R$ 20",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/cbd7fa0af502/miniatura.png",
+    "buy_url": "https://pay.kiwify.com.br/T4zNv5p",
+    "free": false,
+    "free_files": [],
+    "category_count": 12,
+    "colors": [
+      "#0070ff",
+      "#308d56",
+      "#0f4e00",
+      "#92ad2f",
+      "#a8d6ff",
+      "#e1e1e1",
+      "#ff9900",
+      "#fff8a6",
+      "#dba8a8",
+      "#dbc1a8",
+      "#cf8925",
+      "#2b33d0"
+    ],
+    "layers_info": [
+      {
+        "category_count": 12,
+        "colors": [
+          "#0070ff",
+          "#308d56",
+          "#0f4e00",
+          "#92ad2f",
+          "#a8d6ff",
+          "#e1e1e1",
+          "#ff9900",
+          "#fff8a6",
+          "#dba8a8",
+          "#dbc1a8",
+          "#cf8925",
+          "#2b33d0"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Fitogeografia"
+      }
+    ],
+    "created_at": "2026-09-03",
+    "updated_at": "2026-09-03"
   }
 ]
