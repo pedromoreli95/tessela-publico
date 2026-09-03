@@ -1,0 +1,15 @@
+[general]
+name=Tessela Estilos Prontos
+qgisMinimumVersion=4.0
+description=Browse and download ready-made QGIS style themes with a real preview, straight from the toolbar.
+version=2.2
+author=Pedro Moreli
+email=pedroeduardomoreli@gmail.com
+about=Tessela lets you browse style "themes" (sets of layers with matching colors, symbols and labels) published by the plugin's maintainer, with a real preview rendered by QGIS. Free themes download instantly; paid themes open the seller's checkout page in your browser. Reads a public GitHub repository only — no account needed to use it.
+tracker=https://github.com/pedromoreli95/tessele-estilos-prontos/issues
+repository=https://github.com/pedromoreli95/tessele-estilos-prontos
+homepage=https://github.com/pedromoreli95/tessele-estilos-prontos
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
