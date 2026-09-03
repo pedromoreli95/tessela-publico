@@ -203,5 +203,41 @@
     ],
     "created_at": "2026-09-03",
     "updated_at": "2026-09-03"
+  },
+  {
+    "id": "0744c9481013",
+    "name": "Edificação; Árvores",
+    "category": "Infraestrutura",
+    "price": "R$ 100",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/0744c9481013/miniatura.png",
+    "buy_url": "https://pay.kiwify.com.br/UmFNQL9",
+    "free": false,
+    "free_files": [],
+    "category_count": 4,
+    "colors": [
+      "#894000",
+      "#b27cde"
+    ],
+    "layers_info": [
+      {
+        "category_count": 1,
+        "colors": [],
+        "has_symbology": false,
+        "has_labels": false,
+        "name": "Edificação"
+      },
+      {
+        "category_count": 3,
+        "colors": [
+          "#894000",
+          "#b27cde"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Árvores"
+      }
+    ],
+    "created_at": "2026-09-03",
+    "updated_at": "2026-09-03"
   }
 ]
