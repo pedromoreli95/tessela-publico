@@ -156,5 +156,52 @@
     ],
     "created_at": "2026-09-03",
     "updated_at": "2026-09-03"
+  },
+  {
+    "id": "7f2774f92bc1",
+    "name": "Hidrografia",
+    "category": "Ambiental",
+    "price": "R$ 20",
+    "thumb_url": "https://raw.githubusercontent.com/pedromoreli95/tessela-publico/main/themes/7f2774f92bc1/miniatura.png",
+    "buy_url": "https://pay.kiwify.com.br/hKTDnEt",
+    "free": false,
+    "free_files": [],
+    "category_count": 3,
+    "colors": [
+      "#0051ff",
+      "#6aadff",
+      "#000000"
+    ],
+    "layers_info": [
+      {
+        "category_count": 1,
+        "colors": [
+          "#0051ff"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Rios"
+      },
+      {
+        "category_count": 1,
+        "colors": [
+          "#6aadff"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Massas D'água"
+      },
+      {
+        "category_count": 1,
+        "colors": [
+          "#000000"
+        ],
+        "has_symbology": true,
+        "has_labels": false,
+        "name": "Nascentes"
+      }
+    ],
+    "created_at": "2026-09-03",
+    "updated_at": "2026-09-03"
   }
 ]
